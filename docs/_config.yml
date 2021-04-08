@@ -36,6 +36,12 @@ rss: rss feed
 feed:
   path: feed
 
+# just-the-docs settings from https://pmarsceill.github.io/just-the-docs/docs/configuration
+search:
+  button: true
+
+color_scheme: dark
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
