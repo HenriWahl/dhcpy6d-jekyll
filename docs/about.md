@@ -4,17 +4,55 @@ title: About
 permalink: /
 ---
 
-# About about about
+# About
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Dhcpy6d is an open source server for DHCPv6, the DHCP protocol for IPv6.  
+Its development is driven by the need to be able to use the existing IPv4 infrastructure in coexistence with IPv6. In a dualstack scenario, the existing DHCPv4 most probably uses MAC addresses of clients to identify them. This is not intended by RFC 3315 for DHCPv6, but also not forbidden. Dhcpy6d is able to do so in local network segments and therefore offers a pragmatical method for parallel use of DHCPv4 and DHCPv6, because existing client management solutions could be used further.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+At the moment it runs on \[Open|Net|Free\]BSD, MacOS X and Linux, tested with Debian 10 and CentOS 8.
 
+Licensed under GPL 2.0.
 
-[jekyll-organization]: https://github.com/jekyll
+### Features:
+
+- identifies clients by MAC address, DUID or hostname
+- generates addresses randomly, by MAC address, by range, by given ID, as EUI64 or from DNS
+- filters clients by MAC, DUID or hostname
+- assigns multiple addresses per client
+- supports prefix delegation
+- calls external scripts to set and remove routes to advertised prefixes
+- allows to organize clients in different classes
+- stores leases in MySQL, PostgreSQL or SQLite database
+- client information can be retrieved from database or textfile
+- dynamically updates DNS to Bind
+- supports rapid commit
+- listens on multiple interfaces
+- allows request limits to mitigate brute force
+
+### Documentation:
+
+- [How it works](https://dhcpy6d.ifw-dresden.de/documentation/function/)
+- [How to configure it](https://dhcpy6d.ifw-dresden.de/documentation/config/)
+    - [General settings](https://dhcpy6d.ifw-dresden.de/documentation/config/general/)
+    - [Addresses](https://dhcpy6d.ifw-dresden.de/documentation/config/addresses/)
+    - [Prefixes](https://dhcpy6d.ifw-dresden.de/documentation/config/prefixes/)
+    - [Classes](https://dhcpy6d.ifw-dresden.de/documentation/config/classes/)
+    - [Minimal configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/minimal/)
+    - [Full configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/full/)
+    - [Clients](https://dhcpy6d.ifw-dresden.de/documentation/config/client/)
+- [How to create its databases](https://dhcpy6d.ifw-dresden.de/documentation/sql/)
+
+### Tested and working clients:
+
+- Windows 7/8/10/2008/2012/2016/2019
+- Dibbler
+- ISC dhclient
+- Wide DHCPv6
+- NetworkManager
+- dhcpcd
+- MacOS X 10.7-10.15*
+- tested with ~4000 clients
+
+\* only accepts one address from DHCPv6 server
