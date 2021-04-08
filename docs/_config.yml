@@ -26,9 +26,15 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
+rss: rss feed
+feed:
+  path: feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
