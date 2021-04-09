@@ -12,9 +12,9 @@ These pages should give you an overview of various aspects of dhcpy6d:
 
 - [How it works](/documentation/function "Function")
 - [How to install it](/documentation/installation "Installation")
-- [How to configure it](https://dhcpy6d.ifw-dresden.de/documentation/config/ "Configuration")
+- [How to configure it](/documentation/config/ "Configuration")
     - [General settings](https://dhcpy6d.ifw-dresden.de/documentation/config/general/ "General")
-    - [Addresses](https://dhcpy6d.ifw-dresden.de/documentation/config/addresses/ "Addresses")
+    - [Addresses](/documentation/config/addresses/ "Addresses")
     - [Classes](https://dhcpy6d.ifw-dresden.de/documentation/config/classes/ "Classes")
     - [Prefixes](https://dhcpy6d.ifw-dresden.de/documentation/config/prefixes/)
     - [Minimal configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/minimal/ "Minimal")
