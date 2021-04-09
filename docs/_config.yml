@@ -43,6 +43,7 @@ feed:
 search:
   button: true
   previews: 5
+  tokenizer_separator: /[\s/]+/
 
 
 # Exclude from processing.
