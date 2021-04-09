@@ -8,7 +8,13 @@ grand_parent: Documentation
 
 # Bootfiles
 
-Bootfiles are defined in **[bootfile_\<bootfile_name>]** sections. _\<bootfile>_ is an arbitrarily chosen identifier like _efi32_, _bios_ or _efi64_. Each bootfile can be restricted to an architecture and/or an user class which is sent by the PXE client.
+Bootfiles are defined in **[bootfile_\<bootfile_name>]** sections:
+
+_\<bootfile>_ is an arbitrarily chosen identifier like _efi32_, _bios_ or _efi64_. Each bootfile can be restricted to an architecture and/or an user class which is sent by the PXE client.
+
+```ini
+[bootfile_efi32]
+```
 
 The **bootfile URL** must have a format like _\<protocol>://[\<address>]/\<file>_. The possible protocols are dependent on the PXE client. TFTP should be supported by almost every client.
 

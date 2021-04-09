@@ -10,7 +10,7 @@ grand_parent: Documentation
 
 ## Basic address options
 
-Addresses are defined in **[address_<address>]** sections. _<address>_ is just an identifier and can be whatever you want. In this example _client_local_ is arbitrarily chosen as type for the address:
+Addresses are defined in **[address_\<address>]** sections. _\<address>_ is just an identifier and can be whatever you want. In this example _client_local_ is arbitrarily chosen as type for the address:
 
 ```ini
 [address_client_local]
