@@ -13,7 +13,7 @@ The following schema apply to **SQLite**, **MySQL** and **PostgreSQL**.
 
 The supplied file [/doc/config.sql](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/config.sql) for client configuration contains this scheme:
 
-```
+```sql
 CREATE TABLE hosts (
   hostname varchar(255) NOT NULL,
   mac varchar(1024) DEFAULT NULL,

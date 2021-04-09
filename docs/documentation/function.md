@@ -13,7 +13,7 @@ dhcpy6d solves this problem by keeping track of link local addresses and their r
 
 In case the Link Local Address and its MAC are not known yet, dhcpy6d tries to get this information from **neighbor cache**. On Linux it is **accessed natively** since version 0.4, on *BSD the command **/usr/sbin/ndp -a -n** is executed. The neighbor cache looks like this:
 
-```
+```terminal
 # ip -6 neigh
 fe80::6403:25cf:5c97:5d41 dev eth0 lladdr 00:18:79:8b:c9:87 REACHABLE
 fe80::8def:bc22:19bb:afb2 dev eth0 lladdr 00:31:02:d0:6a:12 REACHABLE
