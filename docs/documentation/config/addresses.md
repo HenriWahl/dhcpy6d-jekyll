@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Function
+title: Addresses
 permalink: /documentation/config/addresses
 parent: Configuration
 ---
