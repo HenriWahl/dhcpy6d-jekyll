@@ -10,8 +10,8 @@ has_toc: false
 
 These pages should give you an overview of various aspects of dhcpy6d:
 
-- [How it works](https://dhcpy6d.ifw-dresden.de/documentation/function/ "Function")
-- [How to install it](https://dhcpy6d.ifw-dresden.de/documentation/installation/ "Installation")
+- [How it works](/documentation/function/ "Function")
+- [How to install it](/documentation/installation/ "Installation")
 - [How to configure it](https://dhcpy6d.ifw-dresden.de/documentation/config/ "Configuration")
     - [General settings](https://dhcpy6d.ifw-dresden.de/documentation/config/general/ "General")
     - [Addresses](https://dhcpy6d.ifw-dresden.de/documentation/config/addresses/ "Addresses")
