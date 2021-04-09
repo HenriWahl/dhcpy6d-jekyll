@@ -39,6 +39,7 @@ feed:
 # just-the-docs settings from https://pmarsceill.github.io/just-the-docs/docs/configuration
 search:
   button: true
+  previews: 5
 
 
 # Exclude from processing.
