@@ -17,7 +17,7 @@ Configuration consists of two parts. The first is the configuration file that ha
 
 The second is either a [client config file](https://dhcpy6d.ifw-dresden.de/documentation/config/client/ "Clients") or a database on a MySQL server or in a SQLite file following the [database schemes](/documentation/sql/ "SQL"). This part is defined in the mentioned config file.
 
-Dhcpy6d source code contains a config-example.conf as well as a clients-example.conf.
+Dhcpy6d source code contains a [dhcp6d-example.conf](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/dhcpy6d-example.conf) as well as a [clients-example.conf](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/clients-example.conf).
 
 To get a SQLite database for volatile storage use the one coming in var/lib/volatile.sqlite or use sqlite commandline client with doc/volatile.sql:
 
