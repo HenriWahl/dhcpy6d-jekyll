@@ -9,4 +9,4 @@ RUN bundle install --gemfile=/tmp/Gemfile
 WORKDIR /jekyll
 
 CMD bundle install && \
-    bundle exec jekyll serve --host 0.0.0.0 --livereload
+    bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload

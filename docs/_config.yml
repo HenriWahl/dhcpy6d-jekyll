@@ -16,9 +16,12 @@
 title: dhcpy6d
 email: contact@dhcpy6d.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Dhcpy6d delivers IPv6 addresses and prefixes for DHCPv6 clients, which can be identified by DUID,
+  hostname or MAC address as in the good old IPv4 days. Addresses may be generated randomly,
+  by range, by arbitrary ID or MAC address. Clients can get more than one address,
+  leases and client configuration can be stored in databases and DNS can be updated dynamically.
+  Range-based prefixes be delegated as well as fixed prefixes per client.
+  Runs well on Linux and *BSD.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dhcpy6d.de" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
@@ -39,6 +42,8 @@ feed:
 # just-the-docs settings from https://pmarsceill.github.io/just-the-docs/docs/configuration
 search:
   button: true
+  previews: 5
+  tokenizer_separator: /[\s/]+/
 
 
 # Exclude from processing.
