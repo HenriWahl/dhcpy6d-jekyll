@@ -15,7 +15,7 @@ Configuration consists of two parts. The first is the configuration file that ha
 # dhcpy6d -c dhcpy6d.conf
 ```
 
-The second is either a [client config file](https://dhcpy6d.ifw-dresden.de/documentation/config/client/ "Clients") or a database on a MySQL server or in a SQLite file following the [database schemes](/documentation/sql/ "SQL"). This part is defined in the mentioned config file.
+The second is either a [client config file](/documentation/config/client) or a database on a MySQL server or in a SQLite file following the [database schemes](/documentation/sql). This part is defined in the mentioned config file.
 
 Dhcpy6d source code contains a [dhcp6d-example.conf](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/dhcpy6d-example.conf) as well as a [clients-example.conf](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/clients-example.conf).
 
@@ -32,7 +32,7 @@ The latter applies to MySQL databases:
 # mysql dhcpy6d < volatile.sql
 ```
 
-General and client configuration files are in RFC 822 style parsed by [Python ConfigParser](http://docs.python.org/2/library/configparser.html) module.
+General and client configuration files are in RFC 822 style parsed by [Python ConfigParser](http://docs.python.org/3/library/configparser.html) module.
 
 The general configuration file consists of 4 types of sections:
 
@@ -43,16 +43,16 @@ The general configuration file consists of 4 types of sections:
 
 Find more information about these sections here:
 
-- [General configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/general/ "General")
-- [Addresses](https://dhcpy6d.ifw-dresden.de/documentation/config/addresses/ "Addresses")
-- [Prefixes](https://dhcpy6d.ifw-dresden.de/documentation/config/prefixes/)
-- [Classes](https://dhcpy6d.ifw-dresden.de/documentation/config/classes/ "Classes")
+- [General configuration](/documentation/config/general)
+- [Addresses](/documentation/config/addresses)
+- [Prefixes](/documentation/config/prefixes)
+- [Classes](/documentation/config/classes)
 
 See some example configuration files:
 
-- [Minimal necessary](https://dhcpy6d.ifw-dresden.de/documentation/config/minimal/ "Minimal")
-- [Full configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/full/ "Full") to show all options
+- [Minimal necessary](/documentation/config/minimal)
+- [Full configuration](/documentation/config/full) to show all options
 
 If clients are configured in a file instead of a database it might look like this:
 
-- [Client configuration file](https://dhcpy6d.ifw-dresden.de/documentation/config/clients/ "Clients")
+- [Client configuration file](/documentation/config/clients)
