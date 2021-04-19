@@ -126,7 +126,7 @@ call_down = /usr/local/bin/update_route.sh $prefix$ $length$ $router$
 
 ## Default class
 
-The class _default_ always exists and applies to clients that do not match otherwise. It uses the address _default_ which has to be set in the **[address_default]** section. See [minimal configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/minimal) for example.
+The class _default_ always exists and applies to clients that do not match otherwise. It uses the address _default_ which has to be set in the **[address_default]** section. See [minimal configuration](/documentation/config/minimal) for example.
 
 If default clients need extra configuration edit **[class_default]**:
 

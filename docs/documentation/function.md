@@ -39,10 +39,10 @@ Addresses can be defined following different patterns:
 - generate a **random address**, that might allow privacy on external connections even if privacy extensions are not enabled on client
 - build address using an **internal ID** found in some kind of management database
 
-The general [configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/ "Configuration") is set in a config text file.
+The general [configuration](/documentation/config/ "Configuration") is set in a config text file.
 
-Client configuration can be stored in a [client config file](https://dhcpy6d.ifw-dresden.de/documentation/config/client/ "Clients") or in a database (MySQL or SQLite). Databases will fit better in larger environments.
+Client configuration can be stored in a [client config file](/documentation/config/client/ "Clients") or in a database (MySQL or SQLite). Databases will fit better in larger environments.
 
-Volatile information like leases and Link-Local-Address-MAC-relations are stored in either MySQL or SQLite database. See [database schemes](https://dhcpy6d.ifw-dresden.de/documentation/sql/ "SQL") for further details.
+Volatile information like leases and Link-Local-Address-MAC-relations are stored in either MySQL or SQLite database. See [database schemes](/documentation/sql/ "SQL") for further details.
 
 Despite MAC addresses are important for certain dualstack environments they can be ommited completely. DUIDs or hostnames can be used for identification too.

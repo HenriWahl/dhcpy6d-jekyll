@@ -33,16 +33,16 @@ Licensed under GPL 2.0.
 
 ## Documentation:
 
-- [How it works](https://dhcpy6d.ifw-dresden.de/documentation/function/)
-- [How to configure it](https://dhcpy6d.ifw-dresden.de/documentation/config/)
-    - [General settings](https://dhcpy6d.ifw-dresden.de/documentation/config/general/)
-    - [Addresses](https://dhcpy6d.ifw-dresden.de/documentation/config/addresses/)
-    - [Prefixes](https://dhcpy6d.ifw-dresden.de/documentation/config/prefixes/)
-    - [Classes](https://dhcpy6d.ifw-dresden.de/documentation/config/classes/)
-    - [Minimal configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/minimal/)
-    - [Full configuration](https://dhcpy6d.ifw-dresden.de/documentation/config/full/)
-    - [Clients](https://dhcpy6d.ifw-dresden.de/documentation/config/client/)
-- [How to create its databases](https://dhcpy6d.ifw-dresden.de/documentation/sql/)
+- [How it works](/documentation/function/)
+- [How to configure it](/documentation/config/)
+    - [General settings](/documentation/config/general/)
+    - [Addresses](/documentation/config/addresses/)
+    - [Prefixes](/documentation/config/prefixes/)
+    - [Classes](/documentation/config/classes/)
+    - [Minimal configuration](/documentation/config/minimal/)
+    - [Full configuration](/documentation/config/full/)
+    - [Clients](/documentation/config/client/)
+- [How to create its databases](/documentation/sql/)
 
 ## Tested and working clients:
 

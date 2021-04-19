@@ -39,6 +39,8 @@ rss: rss feed
 feed:
   path: feed
 
+show_excerpts: true  
+
 # just-the-docs settings from https://pmarsceill.github.io/just-the-docs/docs/configuration
 search:
   button: true
