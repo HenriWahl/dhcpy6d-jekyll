@@ -1,0 +1,24 @@
+Package: dhcpy6d
+Version: 1.0.3-1
+Architecture: all
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 542
+Pre-Depends: dpkg (>= 1.19.7)
+Depends: adduser, lsb-base, python3-distro, python3-dnspython, python3:any (>= 3.7~), ucf
+Suggests: python3-mysqldb, python3-psycopg2
+Filename: ./dhcpy6d_1.0.3-1_all.deb
+Size: 82320
+MD5sum: 1003ea66e67a9af21b946c5a91eee264
+SHA1: 70d8c69c11089f30b5b795206306a350db3cd53a
+SHA256: c54c7ad8c06c937c49f6ee8dca57e43b390f04591f0d320a62f268a4ce3b6fe0
+Section: net
+Priority: optional
+Homepage: https://dhcpy6d.ifw-dresden.de/
+Description: MAC address aware DHCPv6 server written in Python
+ Dhcpy6d delivers IPv6 addresses for DHCPv6 clients, which can be
+ identified by DUID, hostname or MAC address as in the good old IPv4
+ days. It allows easy dualstack transition, addresses may be
+ generated randomly, by range, by arbitrary ID or MAC address. Clients
+ can get more than one address, leases and client configuration can be
+ stored in databases and DNS can be updated dynamically.
+
