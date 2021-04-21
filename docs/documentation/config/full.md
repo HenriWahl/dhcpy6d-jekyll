@@ -12,7 +12,7 @@ This is an example config file including many available options.
 It might not represent the latest set of features because there where
 added more over the years:
 
-```
+```ini
 # dhcpy6d example configuration
 #
 # The first section [dhcpy6d] contains general options.

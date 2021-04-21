@@ -10,7 +10,7 @@ grand_parent: Documentation
 
 This is an example config file including the minimum necessary options:
 
-```
+```ini
 # dhcpy6d minimal example configuration
 
 [dhcpy6d]
