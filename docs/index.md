@@ -4,8 +4,6 @@ title: About
 permalink: /
 ---
 
-# This pages are work in progress, moving from [https://dhcpy6d.ifw-dresden.de](https://dhcpy6d.ifw-dresden.de) to [https://dhcpy6d.de](https://dhcpy6d.de).
-
 # About
 
 Dhcpy6d is an open source server for DHCPv6, the DHCP protocol for IPv6.  
