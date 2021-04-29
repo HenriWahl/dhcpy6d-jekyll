@@ -1,17 +1,15 @@
 ---
 layout: post
-title: dhcpy6d 1.0.3 released
-date: 2020-12-21 15:39:36
+title: dhcpy6d moved to dhcpy6d.de
+date: 2021-04-29 10:57:41
 categories: releases
-permalink: /dhcpy6d-1-0-3-released
+permalink: /dhcpy6d-moved-to-dhcpy6d-de
 ---
 
-Allows to update DNS without RNDC key via new option **DNS\_USE\_RNDC**.
+The DHCPv6 server **dhcpy6d** now has a new home: [https://dhcpy6d.de](https://dhcpy6d.de).
 
+It is hosted on [Github Pages](https://pages.github.com/) in its own [repository](https://github.com/HenriWahl/dhcpy6d-jekyll) made with [Jekyll](https://jekyllrb.com/).
 
-Get it at [/download](/download), from our [Debian/CentOS repository](/debian-and-redhat-centos-stable-repositories-available/) or at [https://hub.docker.com/r/henriwahl/dhcpy6d](https://hub.docker.com/r/henriwahl/dhcpy6d).
-
-
-By the way: Merry Christmas!
+The move has consequences for the URLs in the **Debian** and **CentOS** repository - please check them at [https://dhcpy6d.de/download](https://dhcpy6d.de/download). Due to changed signing keys there would have been trouble even if the URLs were redirected so the decision was made to do a hard cut.
 
 
