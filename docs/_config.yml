@@ -24,8 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Runs well on Linux and *BSD.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dhcpy6d.de" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: 
 github_username:  henriwahl/dhcpy6d
+
+footer_content: ©2021 Henri Wahl et al.
+
 
 # Build settings
 markdown: kramdown
