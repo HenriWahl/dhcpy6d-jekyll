@@ -37,16 +37,6 @@ added more over the years:
 # Server interface - multiple interfaces have to be separated by spaces.
 interface = eth0
 
-# Multicast address to listen at
-# sensible default for local subnet is ff02::1:2.
-#mcast = ff02::1:2
-
-# Port to listen at - like multicast address also defined by RFC.
-#port = 547
-
-# Not used yet.
-#address = ::1
-
 # Server DUID - if not set there will be one generated every
 # time dhcpy6d starts. This might cause trouble for Windows
 # clients because they go crazy about the changed server DUID.
