@@ -15,9 +15,11 @@ Configuration consists of two parts. The first is the configuration file that ha
 # dhcpy6d -c dhcpy6d.conf
 ```
 
-The second is either a [client config file](/documentation/config/client) or a database on a MySQL server or in a SQLite file following the [database schemes](/documentation/sql). This part is defined in the mentioned config file.
+The second is either a [client config file](/documentation/config/client) or a database on a MySQL or PostgreSQL server or in a SQLite file following the [database schemes](/documentation/sql). This part is defined in the mentioned config file.
 
 Dhcpy6d source code contains a [dhcp6d-example.conf](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/dhcpy6d-example.conf) as well as a [clients-example.conf](https://github.com/HenriWahl/dhcpy6d/blob/master/doc/clients-example.conf).
+
+Since version 1.0 the **volatile leases database** is created **automatically**, so you would need the following steps only for the **configuration database**.
 
 To get a SQLite database for volatile storage use the one coming in var/lib/volatile.sqlite or use sqlite commandline client with doc/volatile.sql:
 
