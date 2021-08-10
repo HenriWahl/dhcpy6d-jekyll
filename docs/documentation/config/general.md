@@ -177,11 +177,11 @@ dns_rndc_key = rndc-key
 dns_rndc_secret = VDE8dje4sWsd93SKksdkk==
 ```
 
-Alternatively if no RNDC is used it might be omitted by disabling it via **use_rndc**:
+Alternatively if no RNDC is used it might be omitted by disabling it via **dns_use_rndc**:
 
 ```ini
 dns_update_nameserver = fd00::53:1
-dns_use_rndc_key = no
+dns_use_rndc = no
 ```
 
 Clients may request that they update DNS. If these wishes shall be ignored **dns_ignore_client** is the right switch:
