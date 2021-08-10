@@ -24,7 +24,7 @@ wget -q -O - /files/repo/stable/debian/key.gpg | apt-key add -
 
 To use the **RedHat/CentOS 8** repository simply add the following to your repository information:
 
-``ìni
+```ini
 [dhcpy6d-stable]
 name=dhcpy6d-stable
 baseurl=/files/repo/stable/centos/
