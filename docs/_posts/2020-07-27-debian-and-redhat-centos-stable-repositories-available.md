@@ -12,18 +12,23 @@ Due to the outdated version of dhcpy6d available at Debian there is now an own d
 It works at least for **Debian 10** and **Ubuntu 20.04**.  
 Add the following source to your Debian APT **sources**:
 
-
+```
 deb /files/repo/stable/debian/ /
+```
+
 Add the **[gpg key](/files/repo/stable/debian/key.gpg)** to your APT keyring:
 
-
+```terminal
 wget -q -O - /files/repo/stable/debian/key.gpg | apt-key add -
+```
+
 To use the **RedHat/CentOS 8** repository simply add the following to your repository information:
 
-
+``ìni
 [dhcpy6d-stable]
 name=dhcpy6d-stable
 baseurl=/files/repo/stable/centos/
 gpgcheck=1
 gpgkey=/files/repo/stable/centos/RPM-GPG-KEY-dhcpy6d
 enabled=1
+```
