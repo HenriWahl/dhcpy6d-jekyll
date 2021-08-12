@@ -9,7 +9,7 @@ permalink: /dhcpy6d-1-0-3-released
 Allows to update DNS without RNDC key via new option **DNS\_USE\_RNDC**.
 
 
-Get it at [/download](/download), from our [Debian/CentOS repository](/debian-and-redhat-centos-stable-repositories-available) or at [https://hub.docker.com/r/henriwahl/dhcpy6d](https://hub.docker.com/r/henriwahl/dhcpy6d).
+Get it at [download](/download), from our [Debian/CentOS repository](/debian-and-redhat-centos-stable-repositories-available) or at [https://hub.docker.com/r/henriwahl/dhcpy6d](https://hub.docker.com/r/henriwahl/dhcpy6d).
 
 
 By the way: Merry Christmas!

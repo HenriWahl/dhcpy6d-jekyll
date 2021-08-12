@@ -8,7 +8,7 @@ permalink: /download
 
 **Stable source** and **binary** packages for **Debian** and **Redhat/CentOS** are available at **[GitHub](https://github.com/HenriWahl/dhcpy6d/releases/tag/v1.0.3)**.
 
-The current development version is available at **[GitHub latest](https://github.com/HenriWahl/dhcpy6d/releases/tag/latest)**.
+The current development version is available at **[GitHub latest](https://github.com/HenriWahl/dhcpy6d/releases)**.
 
 ## Debian repository
 
