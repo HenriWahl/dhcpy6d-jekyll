@@ -21,7 +21,7 @@ The section **[dhcpy6d]** in the configuration file contains all general options
 Let dhcpy6d **really_do_it** and respond to client requests – might be of use for debugging and testing.
 
 ```ini
-really_do_it = yesagstamon-de
+really_do_it = yes
 ```
 
 The interfaces the server listens on is defined with keyword **interface**. Multiple interfaces have to be separated by spaces.
@@ -175,6 +175,13 @@ When connecting to a Bind DNS server its address and RNDC data must be set with 
 dns_update_nameserver = fd00::53:1
 dns_rndc_key = rndc-key
 dns_rndc_secret = VDE8dje4sWsd93SKksdkk==
+```
+
+Alternatively if no RNDC is used it might be omitted by disabling it via **dns_use_rndc**:
+
+```ini
+dns_update_nameserver = fd00::53:1
+dns_use_rndc = no
 ```
 
 Clients may request that they update DNS. If these wishes shall be ignored **dns_ignore_client** is the right switch:
