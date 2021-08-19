@@ -113,7 +113,7 @@ preferred_lifetime = 900
 valid_lifetime = 1200
 ```
 
-If DNS should be updated the flag **dns_update** has to be set true. At the moment this only works for Bind DNS servers which must be configuref in [general settings](/documentation/config/general/ "General").
+If DNS should be updated the flag **dns_update** has to be set true. At the moment this only works for Bind DNS servers which must be configured in [general settings](/documentation/config/general/ "General").
 
 ```ini
 dns_update = yes
