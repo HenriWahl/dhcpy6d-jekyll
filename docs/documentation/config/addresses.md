@@ -81,7 +81,7 @@ If addresses should be managed centrally by your DNS they can be obtained by DNS
 category = dns
 ```
 
-If  the _–prefix_ argument is used when calling dhcpy6, one can use the $prefix$ variable in a pattern definition, which will be substituted by the given prefix. This might be especially usefull when using changing prefixes given by an ISP:
+If the _–prefix_ argument is used when calling dhcpy6d, one can use the $prefix$ variable in a pattern definition, which will be substituted by the given prefix. This might be especially usefull when using changing prefixes given by an ISP:
 
 ```ini
 [address_global_dynamic]
