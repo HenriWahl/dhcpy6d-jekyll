@@ -19,7 +19,7 @@ These pages should give you an overview of various aspects of dhcpy6d:
     - [Prefixes](/documentation/config/prefixes)
     - [Minimal configuration](/documentation/config/minimal "Minimal")
     - [Full configuration](/documentation/config/full "Full")
-    - [Clients](/documentation/config/client "Clients")
+    - [Clients](/documentation/config/clients "Clients")
 - [How to create its databases](/documentation/sql "SQL")
 - [How to configure the router](/documentation/router-configuration "Router configuration")
 - [Manual pages](/documentation/manpages "Manpages")
