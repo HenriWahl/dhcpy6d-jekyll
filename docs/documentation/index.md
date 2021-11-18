@@ -12,17 +12,17 @@ These pages should give you an overview of various aspects of dhcpy6d:
 
 - [How it works](/documentation/function "Function")
 - [How to install it](/documentation/installation "Installation")
-- [How to configure it](/documentation/config/ "Configuration")
-    - [General settings](/documentation/config/general/ "General")
-    - [Addresses](/documentation/config/addresses/ "Addresses")
-    - [Classes](/documentation/config/classes/ "Classes")
-    - [Prefixes](/documentation/config/prefixes/)
-    - [Minimal configuration](/documentation/config/minimal/ "Minimal")
-    - [Full configuration](/documentation/config/full/ "Full")
-    - [Clients](/documentation/config/client/ "Clients")
-- [How to create its databases](/documentation/sql/ "SQL")
-- [How to configure the router](/documentation/router-configuration/ "Router configuration")
-- [Manual pages](/documentation/manpages/ "Manpages")
+- [How to configure it](/documentation/config "Configuration")
+    - [General settings](/documentation/config/general "General")
+    - [Addresses](/documentation/config/addresses "Addresses")
+    - [Classes](/documentation/config/classes "Classes")
+    - [Prefixes](/documentation/config/prefixes)
+    - [Minimal configuration](/documentation/config/minimal "Minimal")
+    - [Full configuration](/documentation/config/full "Full")
+    - [Clients](/documentation/config/client "Clients")
+- [How to create its databases](/documentation/sql "SQL")
+- [How to configure the router](/documentation/router-configuration "Router configuration")
+- [Manual pages](/documentation/manpages "Manpages")
 
 ## Supported DHCPv6 Options
 
