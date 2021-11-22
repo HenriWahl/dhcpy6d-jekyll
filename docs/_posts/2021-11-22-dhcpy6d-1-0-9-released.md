@@ -1,7 +1,7 @@
 ---
 layout: post
 title: dhcpy6d 1.0.9 released
-date: 2021-11-21 202:00:00
+date: 2021-11-22 20:00:00
 categories: releases
 permalink: /dhcpy6d-1-0-9-released
 ---
