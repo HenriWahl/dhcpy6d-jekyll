@@ -33,7 +33,7 @@ Licensed under GPL 2.0.
 
 - [How it works](/documentation/function/)
 - [How to configure it](/documentation/config/)
-    - [General settings](/documentation/config/general/)
+    - [General settings](/documentation/config/general)
     - [Addresses](/documentation/config/addresses/)
     - [Prefixes](/documentation/config/prefixes/)
     - [Classes](/documentation/config/classes/)
