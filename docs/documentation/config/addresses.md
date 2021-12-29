@@ -126,4 +126,4 @@ dns_zone = example.com
 dns_rev_zone = 0.0.d.f.ip6.arpa
 ```
 
-General settings like used nameserver and credentials are configured in general section **[dhcpy6d]**.
+General settings like used nameserver and credentials are configured in [general settings](/documentation/config/general "General").
