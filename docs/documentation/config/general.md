@@ -30,6 +30,13 @@ The interfaces the server listens on is defined with keyword **interface**. Mult
 interface = eth0 eth1
 ```
 
+The interfaces the server does not listen on. Multiple interfaces have to be separated by spaces.
+All interfaces not mentioned here will be used for listening. Added in version 1.2.0.
+
+```ini
+exclude_interface = eth1
+```
+
 The server DUID should be configured with **serverduid**. If there is none dhcpy6d creates a new one at every startup. Windows clients might run a little bit wild when server DUID changed. You are free to compose your own as long as it follows [RFC 3315](http://tools.ietf.org/html/rfc3315). Please note that it has to be in hexadecimal format – no octals, no “-“, just like in the example below.  
 On Debian/Ubuntu systems when installed as package the DUID is noted in _/etc/default/dhcpy6d_.  
 The example here is a DUID-LLT (Link-layer Address Plus Time) even if it should be a DUID-TLL as timestamp comes first. It is composed of DUID-type(LLT=1) + Hardware-type(Ethernet=1) + Unixtime-in-hex + MAC-address what makes a 0001 + 0001 + 11fb5dc9+01023472a6c5 = 0001000111fb5dc901023472a6c5:
