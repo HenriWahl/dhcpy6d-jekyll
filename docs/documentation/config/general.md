@@ -164,6 +164,7 @@ ignore_mac =yes
 ```
 
 Dhcpy6d allows to update DNS dynamically with **dns_update**. This works at the moment only with Bind DNS, but might be extended to others, maybe via call of an external command.
+Here the general settings like which server and credentials are to be used. Details like updates zones belong to address configuration.
 
 ```ini
 dns_update = yes
