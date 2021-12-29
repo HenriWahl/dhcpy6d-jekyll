@@ -19,7 +19,8 @@ call the following:
 dhcpy6d --message "prefix 2001:db8"
 ```
 
-This prefix snippet will be inserted wherever there is a **$prefix$** variable used in an address or prefix definition.
+This call only sends the message to the running dhcpyd and stops after finishing. The prefix snippet will be inserted
+wherever there is a **$prefix$** variable used in an address or prefix definition.
 
 ## The $prefix$ variable
 
