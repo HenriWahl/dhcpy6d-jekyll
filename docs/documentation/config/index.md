@@ -58,3 +58,7 @@ See some example configuration files:
 If clients are configured in a file instead of a database it might look like this:
 
 - [Client configuration file](/documentation/config/clients)
+
+If you use an ISP with dynamically changing prefixes you can make use of the dynamic prefix:
+
+- [Dynamic prefix](/documentation/config/dynamic_prefix)
