@@ -36,7 +36,7 @@ really_do_it = yes
 
 ### Setting `interface`
 
-The interfaces the server listens on is defined with keyword **interface**. Multiple interfaces have to be separated by spaces.
+The interfaces the server listens on is defined with keyword **interface**. Multiple interfaces have to be separated by spaces or comma.
 
 #### Example:
 
@@ -46,7 +46,7 @@ interface = eth0 eth1
 
 ### Setting `exclude_interface`
 
-The interfaces the server does not listen on. Multiple interfaces have to be separated by spaces.
+The interfaces the server does not listen on. Multiple interfaces have to be separated by spaces or comma.
 All interfaces not mentioned here will be used for listening. Added in version 1.2.0.
 
 #### Example:
@@ -90,7 +90,7 @@ group = dhcpy6d
 
 ### Setting `nameserver`
 
-Nameservers to be replied to request option 23 are defined with **nameserver**. If more than one is needed they have to be separated by spaces.
+Nameservers to be replied to request option 23 are defined with **nameserver**. If more than one is needed they have to be separated by spaces or comma.
 
 #### Example:
 
@@ -120,7 +120,7 @@ domain_search_list = foo.com bar.com
 
 ### Setting `ntp_server`
 
-Can be unicast addresses, multicast addresses or FQDNs following RFC 5908 for DHCPv6 option 56.
+Can be unicast addresses, multicast addresses or FQDNs following RFC 5908 for DHCPv6 option 56.  Multiple NTP servers have to be separated by space or comma.
 
 #### Example:
 
