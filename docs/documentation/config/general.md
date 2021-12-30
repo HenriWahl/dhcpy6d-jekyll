@@ -166,7 +166,7 @@ log_mac_llip = no
 
 ### Settings `store_config` and `store_file_config`
 
-Configuration of clients can be stored in a file or in a database. Databases MySQL, PostgreSQL and SQLite are supported at the moment, thus possible values are “file”, “mysql” and “sqlite”. To disable any client configuration source it has to be “none”. If **store_config** is set to “file” a file has to be set to get client configuration with **store_file_config**.
+Configuration of clients can be stored in a file or in a database. The SQL databases MySQL, PostgreSQL and SQLite are supported at the moment, thus possible values are “file”, “mysql” and “sqlite”. To disable any client configuration source it has to be “none”. If **store_config** is set to “file” a file has to be set to get client configuration with **store_file_config**.
 
 #### Example:
 
@@ -177,7 +177,7 @@ store_file_config = /path/to/client/conf/file
 
 ### Settings `store_volatile` and `store_sqlite_volatile`
 
-Volatile data like leases and the mapping between Link Local Addresses and MAC addresses can be stored in MySQL, PostgreSQL or SQLite database, so the possible values for **store_volatile** are “mysql”, “postgresql” and “sqlite”. If set to “sqlite” a SQLite database file must be given.
+Volatile data like leases and the mapping between Link Local Addresses and MAC addresses can be stored in a MySQL, PostgreSQL or SQLite database, so the possible values for **store_volatile** are “mysql”, “postgresql” and “sqlite”. If set to “sqlite” a SQLite database file must be given.
 
 #### Example:
 
@@ -215,7 +215,7 @@ store_db_password = dhcpy6d_password
 
 #### Client Config Data
 
-The same MySQL or PostgreSQL settings are necessary if also client configuration is stored in MySQL or PostgreSQL database – but need to be set only once.
+If the client configuration should be stored in a MySQL or PostgreSQL database as well, the same database needs to be used. Accordingly the same MySQL or PostgreSQL settings are used and only need to be set once.
 
 ###### Example:
 
