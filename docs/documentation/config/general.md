@@ -199,7 +199,7 @@ store_sqlite_config = /path/to/sqlite/config/file
 
 ### Database Settings `store_db_host`, `store_db_db`, `store_db_user` and `store_db_password`
 
-##### Volatile Data
+#### Volatile Data
 
 If **store_volatile** is set to “mysql” or “postgresql” the connection data for the according SQL database must be set.
 
@@ -245,7 +245,7 @@ Has to be at least one of “mac”, “duid”, “hostname”.
 ```ini
 identification = mac hostname
 ```
-### Setting `identification_mode
+### Setting `identification_mode`
 
 If more than one identification attribute has been set, **identification_mode** can be one of “match_all” or “match_some”. The first means that all attributes have to match to identify a client and the latter is more tolerant. This might be interesting if there are some dualboot clients whose MAC addresses match but their DUIDs don’t.
 
