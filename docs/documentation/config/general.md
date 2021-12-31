@@ -148,7 +148,7 @@ log_file = /path/to/dhcpy6d/log/file
 
 Logging via syslog is possible with **log_syslog** being set. An UDP syslog server may be used if **log_syslog_destination** points to it. Optionally a port other than default 514 can be set when adding **:** to the destination. The default syslog facility is “daemon” but can be set with **log_syslog_facility**.
 
-### Example:
+#### Example:
 
 ```ini
 log_syslog = yes
