@@ -1,9 +1,9 @@
 ---
 layout: post
-title: dhcpy6d 1.1.0 released
+title: dhcpy6d 1.2.0 released
 date: 2022-04-04 23:00:00
 categories: releases
-permalink: /dhcpy6d-1-1-0-released
+permalink: /dhcpy6d-1-2-0-released
 ---
 
 New spring 2022 release coming with:
