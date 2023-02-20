@@ -41,6 +41,7 @@ The following DHCPv6 options used by clients and servers are supported at the mo
 - 16 – Vendor Class Option
 - 23 – DNS Recursive Nameserver Option
 - 24 – Domain Search List
+- 31 - SNTP Server Option
 - 32 – Information Refresh Time
 - 39 – Client FQDN Option
 - 56 – NTP Server Option
