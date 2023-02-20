@@ -45,3 +45,5 @@ The following DHCPv6 options used by clients and servers are supported at the mo
 - 32 – Information Refresh Time
 - 39 – Client FQDN Option
 - 56 – NTP Server Option
+- 59 - Network Boot Option
+- 61 - Client System Architecture Type
