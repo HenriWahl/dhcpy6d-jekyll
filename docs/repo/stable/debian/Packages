@@ -1,16 +1,16 @@
 Package: dhcpy6d
-Version: 1.2.3-1
+Version: 1.2.4-1
 Architecture: all
 Maintainer: Axel Beckert <abe@debian.org>
-Installed-Size: 460
+Installed-Size: 461
 Pre-Depends: dpkg (>= 1.19.7)
 Depends: adduser, lsb-base, python3-distro, python3-dnspython, python3:any (>= 3.7~), ucf
 Suggests: python3-mysqldb, python3-psycopg2
-Filename: ./dhcpy6d_1.2.3-1_all.deb
-Size: 83360
-MD5sum: ba86873f3a4ec1ef692ba3a983c78a83
-SHA1: 81ac0a5527ca53322a4b24cc49c95369b0d07d57
-SHA256: e8c44eb159f2f70732a2b4c3f9632d3181894eff8a00b985e3b33798a45622bd
+Filename: ./dhcpy6d_1.2.4-1_all.deb
+Size: 83512
+MD5sum: 4b0a2de3f899677d08b97c6f341f4eec
+SHA1: 4ba2624e79dfd93eae88fb41b09240d4b3d504a5
+SHA256: 2da78d0b39b624df0fd2d6e9f97442e24317c8d5e8ec14f819e858ab3d65f18e
 Section: net
 Priority: optional
 Homepage: https://dhcpy6d.de
