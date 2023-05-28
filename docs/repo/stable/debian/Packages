@@ -7,10 +7,10 @@ Pre-Depends: dpkg (>= 1.19.7)
 Depends: adduser, lsb-base, python3-distro, python3-dnspython, python3:any (>= 3.7~), ucf
 Suggests: python3-mysqldb, python3-psycopg2
 Filename: ./dhcpy6d_1.4.0-1_all.deb
-Size: 83536
-MD5sum: e51fbe46e675ba436722aee3650d40ea
-SHA1: b332e4825f489ca6c208a4ac6fefb31bcdd64005
-SHA256: 73bfd5957d41ff016ba340833a58608c8183b5e3faba1ea1f064c28afe0cd02b
+Size: 83544
+MD5sum: 092a7803d0816e4d963ff00b8f6caa7a
+SHA1: 9e97e3e7fab4e6a731d1be4a02234d81a88b64cb
+SHA256: d06a1896817b65a7caf4524cf5ea1395612ce6c4070bbdda2aca9b3708839c38
 Section: net
 Priority: optional
 Homepage: https://dhcpy6d.de
