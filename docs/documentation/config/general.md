@@ -217,7 +217,7 @@ store_db_password = dhcpy6d_password
 
 If the client configuration should be stored in a MySQL or PostgreSQL database as well, the same database needs to be used. Accordingly the same MySQL or PostgreSQL settings are used and only need to be set once.
 
-###### Example:
+##### Example:
 
 ```ini
 store_config = mysql
@@ -226,6 +226,22 @@ store_db_host = localhost
 store_db_db = dhcpy6d_db
 store_db_user = dhcpy6d_user
 store_db_password = dhcpy6d_password
+```
+
+#### Client Config Schema Version 1 vs 2
+
+In case that:
+- the clients should be able to request prefixes,
+- the routes to the prefixes should individually per client be configurable if they point to the link-local address or not,
+- the client configuration is stored in a database,
+
+then the configuration database schema has to be set to version 2 because version 1 does not know this option.
+The default value is 1.
+
+##### Example:
+
+```ini
+store_schema_version = 2
 ```
 
 ## Client Configuration
