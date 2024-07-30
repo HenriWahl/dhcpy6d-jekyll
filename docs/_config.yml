@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dhcpy6d.de" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  henriwahl/dhcpy6d
 
-footer_content: ©2022 Henri Wahl et al.
+footer_content: ©2024 Henri Wahl et al.
 
 
 # Build settings
