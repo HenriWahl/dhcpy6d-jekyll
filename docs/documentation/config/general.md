@@ -357,3 +357,14 @@ The lifetime of information given to clients after an information-request messag
 ```ini
 information_refresh_time = 7200
 ```
+
+### Setting `solicitation_refresh_time`
+
+The maximum time a client should wait before retransmitting a *solicit* message.
+Used by option 82.
+
+#### Example:
+
+```ini
+solicitation_refresh_time = 3600
+```
