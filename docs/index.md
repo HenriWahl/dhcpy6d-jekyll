@@ -9,7 +9,7 @@ permalink: /
 Dhcpy6d is an open source server for DHCPv6, the DHCP protocol for IPv6.  
 Its development is driven by the need to be able to use the existing IPv4 infrastructure in coexistence with IPv6. In a dualstack scenario, the existing DHCPv4 most probably uses MAC addresses of clients to identify them. This is not intended by RFC 3315 for DHCPv6, but also not forbidden. Dhcpy6d is able to do so in local network segments and therefore offers a pragmatical method for parallel use of DHCPv4 and DHCPv6, because existing client management solutions could be used further.
 
-At the moment it runs on *BSD, macOS and Linux, tested with Debian 10 and CentOS 8.
+At the moment it runs on *BSD, macOS and Linux, tested with Debian 10-12 and CentOS 8-9.
 
 Licensed under GPL 2.0.
 
