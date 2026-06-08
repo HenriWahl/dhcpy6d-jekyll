@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Classes
-permalink: /documentation/config/classes/
+permalink: /documentation/config/classes
 parent: Configuration
 grand_parent: Documentation
 ---

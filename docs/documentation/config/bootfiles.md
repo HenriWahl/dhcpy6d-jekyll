@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bootfiles
-permalink: /documentation/config/bootfiles/
+permalink: /documentation/config/bootfiles
 parent: Configuration
 grand_parent: Documentation
 ---

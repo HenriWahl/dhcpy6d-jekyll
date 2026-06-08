@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Prefixes
-permalink: /documentation/config/prefixes/
+permalink: /documentation/config/prefixes
 parent: Configuration
 grand_parent: Documentation
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: General
-permalink: /documentation/config/general/
+permalink: /documentation/config/general
 parent: Configuration
 grand_parent: Documentation
 ---
