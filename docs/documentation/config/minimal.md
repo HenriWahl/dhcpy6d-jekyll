@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Minimal options
-permalink: /documentation/config/minimal
+permalink: /documentation/config/minimal/
 parent: Configuration
 grand_parent: Documentation
 ---

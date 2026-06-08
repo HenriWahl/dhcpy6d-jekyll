@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clients
-permalink: /documentation/config/clients
+permalink: /documentation/config/clients/
 parent: Configuration
 grand_parent: Documentation
 ---

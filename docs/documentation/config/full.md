@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Full options
-permalink: /documentation/config/full
+permalink: /documentation/config/full/
 parent: Configuration
 grand_parent: Documentation
 ---

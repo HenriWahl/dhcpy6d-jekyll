@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Addresses
-permalink: /documentation/config/addresses
+permalink: /documentation/config/addresses/
 parent: Configuration
 grand_parent: Documentation
 ---
